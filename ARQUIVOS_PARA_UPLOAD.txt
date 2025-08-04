@@ -1,0 +1,66 @@
+
+📁 LISTA COMPLETA DE ARQUIVOS PARA UPLOAD NO GITHUB/VERCEL
+
+📂 Estrutura do projeto (copie estes arquivos):
+
+/app/                           (pasta principal)
+├── app/                        (pasta da aplicação)
+│   ├── api/
+│   │   └── contato/
+│   │       └── route.ts        ✅ API do formulário
+│   ├── app/
+│   │   ├── layout.tsx          ✅ Layout principal
+│   │   ├── page.tsx            ✅ Página inicial
+│   │   └── globals.css         ✅ Estilos globais
+│   └── next-env.d.ts
+├── components/                 (pasta de componentes)
+│   ├── ui/                     (componentes de interface)
+│   │   ├── button.tsx
+│   │   ├── input.tsx
+│   │   ├── textarea.tsx
+│   │   ├── toast.tsx
+│   │   └── toaster.tsx
+│   ├── header.tsx              ✅ Cabeçalho do site
+│   ├── hero-section.tsx        ✅ Seção principal
+│   ├── inteligencia-evolutiva.tsx ✅ Seção Inteligência Evolutiva
+│   ├── cadeia-origem-comportamental.tsx ✅ Nova seção adicionada
+│   ├── metodo-awake.tsx        ✅ Seção Método AWAKE
+│   ├── matriz-comportamental.tsx ✅ Seção Matriz
+│   ├── solucoes.tsx            ✅ Seção Soluções
+│   ├── sobre-nakai.tsx         ✅ Seção Sobre
+│   ├── contato-section.tsx     ✅ Seção Contato
+│   ├── footer.tsx              ✅ Rodapé
+│   └── theme-provider.tsx
+├── hooks/
+│   └── use-toast.ts
+├── lib/
+│   └── utils.ts
+├── public/                     (arquivos públicos)
+│   └── logo.png                ✅ Logo do Ricardo Nakai
+├── prisma/
+│   └── schema.prisma
+├── .env                        ✅ Variáveis de ambiente (não commitee se tiver dados sensíveis)
+├── components.json
+├── next.config.js              ✅ Configuração Next.js
+├── package.json                ✅ Dependências do projeto
+├── postcss.config.js
+├── tailwind.config.ts          ✅ Configuração Tailwind
+├── tsconfig.json               ✅ Configuração TypeScript
+└── vercel.json                 ✅ Configuração Vercel (recém criado)
+
+🎯 ARQUIVOS ESSENCIAIS PARA O FUNCIONAMENTO:
+- package.json (dependências)
+- next.config.js (configuração)
+- tsconfig.json (TypeScript)
+- tailwind.config.ts (estilos)
+- vercel.json (deploy)
+- /public/logo.png (logo)
+- Todos os arquivos da pasta /components/
+- Todos os arquivos da pasta /app/
+
+📋 ANTES DO UPLOAD:
+1. ✅ Verifique se todos os arquivos estão presentes
+2. ✅ Logo está em /public/logo.png
+3. ✅ API de contato está em /app/api/contato/route.ts
+4. ✅ Não inclua node_modules (será instalado automaticamente)
+5. ✅ Não inclua .next ou .build (gerados automaticamente)
